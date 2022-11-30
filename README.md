@@ -20,15 +20,15 @@
 
 # Uloge
 
-1. Admin
-    -korisničko ime: kmedenjak
-    -lozinka: kmedenjak007
-3. Moderator
-    -korisničko ime: jura1412
-    -lozinka: jura1412...
-5. Registrirani korisnik
-    -korisničko ime: anica123
-    -lozinka: lozinka12Ana
-7. Neregistrirani korisnik
+1. Admin<br />
+    -korisničko ime: kmedenjak<br />
+    -lozinka: kmedenjak007<br />
+3. Moderator<br />
+    -korisničko ime: jura1412<br />
+    -lozinka: jura1412...<br />
+5. Registrirani korisnik<br />
+    -korisničko ime: anica123<br />
+    -lozinka: lozinka12Ana<br />
+7. Neregistrirani korisnik<br />
     -nema prijave
   
