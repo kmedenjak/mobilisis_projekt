@@ -16,4 +16,19 @@
 7. Kliknuti na opciju New kako bi se dodala baza i nazvati bazu webdip2020x059
 8. Odabrati opciju import te iz mape projekt (putanja: C://xampp/htdocs/projekt) odabrati bazu naziva WebDiP2020x059
 9. Refresh stranice na kojoj je otvorena početna stranica (korak 4)
+
+
+#Uloge
+
+1. Admin
+    -korisničko ime: kmedenjak
+    -lozinka: kmedenjak007
+3. Moderator
+    -korisničko ime: jura1412
+    -lozinka: jura1412...
+5. Registrirani korisnik
+    -korisničko ime: anica123
+    -lozinka: lozinka12Ana
+7. Neregistrirani korisnik
+    -nema prijave
   
