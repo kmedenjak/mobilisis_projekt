@@ -18,7 +18,7 @@
 9. Refresh stranice na kojoj je otvorena početna stranica (korak 4)
 
 
-#Uloge
+# Uloge
 
 1. Admin
     -korisničko ime: kmedenjak
