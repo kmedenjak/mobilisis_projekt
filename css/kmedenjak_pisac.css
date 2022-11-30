@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    color: black;
+}
+
+table{
+    border-color: black;
+}
+
+.pozadinaImg{
+    filter: grayscale(100%);
+}
+
+.slikaPocetna{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    float: right;
+    padding: 2px;
+    filter: grayscale(100%);
+}
+
+img{
+    display: none;
+    visibility: hidden;
+}

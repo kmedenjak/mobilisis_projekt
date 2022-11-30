@@ -1,0 +1,422 @@
+@media only screen and (min-width: 364px) and (max-width: 1400px){
+    .rodendan{
+        width: 100%;
+        color: #333;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+    .rodendan:hover{
+        background-color: white;
+        color: #93af85;
+    }
+
+    nav > ul li {
+        width: 100%;
+        background-color: #ccc;
+        color: #333;
+    }
+    .navigacijaLi >  a {
+        display: block;
+        text-align: center;
+        background-color: #ccc;
+        color: #333;
+        font-family: Comic Sans;
+    }
+
+    .navigacijaLi > a:hover{
+        background-color: #333;
+        color: white;
+    }
+    
+    .podnozje{
+        background-color: #f1f1f1;
+        color: #333;
+    }
+}
+
+
+label{
+    color: black;
+    font-family: Arial;
+    letter-spacing: 8px;
+    word-spacing: 15px;
+    line-height: 30px;
+}
+
+.polozajObrazac{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.obrubObrazac{
+    width: 500px;
+    height: 1550px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 #f1f1f1;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.obrazacForma{
+    margin: 10px;
+    padding: 30px;
+}
+
+.gumb{
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    margin-top: 20px;
+    float: right;
+    margin: 7px;
+    border-radius: 6px;
+    font-family: Arial;
+    letter-spacing: 8px;
+    word-spacing: 28px;
+    line-height: 30px;
+}
+
+.formaInput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: #f2f2f2;
+}
+
+
+#pravokutnik{
+    border:1px solid #d3d3d3; 
+    background-color: white; 
+    position: absolute;
+}
+#pravokutnik2{
+    border:1px solid #d3d3d3; 
+    background-color: white; 
+    position: absolute;
+}
+#pravokutnik3{
+    border:1px solid #d3d3d3; 
+    background-color: white; 
+    position: absolute;
+}
+#pravokutnik4{
+    border:1px solid #d3d3d3; 
+    background-color: white; 
+    position: absolute;
+}
+
+h2{
+    font-size: 60px;
+    font-family: Arial;
+    letter-spacing: 8px;
+    word-spacing: 28px;
+    line-height: 30px;
+    color: #333;
+}
+
+.slikaPocetna{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    float: right;
+    padding: 2px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    word-spacing: 28px;
+}
+
+li a:hover{
+    background-color: white;
+    color: #333;
+}
+
+h1 > a{
+    color: #333;
+    text-decoration: none;
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+h1 > a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #333;
+}
+
+p{
+    width: 100%;
+    font-size: 19px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    word-spacing: 28px;
+    line-height: 30px;
+}
+
+.podnozje{
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+}
+
+
+/*TABLICE*/
+.naslovTablice{
+    font-size: 60px;
+    color: #333;
+}
+
+.tablica{
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: thin #ccc solid;
+}
+
+table:hover{
+    border: 5px grey solid;
+}
+
+th{
+    background-color: #333;
+    color: #ccc;
+    border: none;
+} 
+
+tr, td{
+    border: thin #333 solid;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    word-spacing: 28px;
+    line-height: 30px;
+}
+
+tr:nth-child(even){
+    background-color: #ccc;
+}
+
+tr:hover{
+    background-color: #333;
+    color: #ccc;
+}
+
+th, td{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.glavnaSlikaPocetna{
+    width: 100%;
+}
+
+
+/*GALERIJA*/
+.SveSlike{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.slike{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+figure{
+    border: 3px #ccc solid;
+    border-radius: 8px;
+    width: 260px;
+    height: 230px;
+    margin: 50px;
+    filter: grayscale(100%);
+}
+
+figcaption {
+    background-color: #93af85;
+    color: #333;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+    align-items: flex-end;
+}
+
+h2{
+    color: #93af85;
+    font-size: 50px;
+}
+
+.gumbSlike
+{
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    margin: 7px;
+    border-radius: 6px;
+}
+
+
+/*DIO S PHP-OM*/
+
+.greskaUnosa{
+    color: red;
+}
+
+.gumbic{
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 7px;
+    width: 70px;
+    margin: 7px;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+/*PRIJAVA*/
+
+.polozajPrijava{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.obrubPrijava{
+    width: 500px;
+    height: 300px;
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 #f1f1f1;
+}
+
+.prijavaForma{
+    margin: 10px;
+    padding: 30px;
+}
+
+.formaInput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 2px solid #333;
+}
+
+.gumbPrijava{
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px;
+    width: 70px;
+    margin-top: 20px;
+    float: right;
+    margin: 7px;
+    border-radius: 6px;
+}
+
+
+/*REGISTRACIJA*/
+
+label{
+    color: black;
+}
+
+.polozajRegistracija{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.obrubRegistracija{
+    width: 500px;
+    height: 1620px;
+    background-color: #f2f2f2;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 #f1f1f1;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.registracijaForma{
+    margin: 10px;
+    padding: 30px;
+}
+
+.mjesto{
+    border: #333 2px solid;
+    background-color: white;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.gumbReg{
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    margin-top: 20px;
+    float: right;
+    margin: 7px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+h2{
+    color: #333;
+    background-color: white;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+.statistika{
+    background-color: #ccc;
+    width: 100%;
+}
+
+.podaciStatistike{
+    margin: 30px;
+    padding: 30px;
+    color: #333;
+}

@@ -1,0 +1,8 @@
+http://localhost/kmedenjak/zadaca_04/obrasci/prijava.php
+http://localhost/kmedenjak/zadaca_04/obrasci/registracija.php
+http://localhost/kmedenjak/zadaca_04/plan.php
+http://localhost/kmedenjak/zadaca_04/testBrzine.php
+http://localhost/kmedenjak/zadaca_04/galerija.php
+http://localhost/kmedenjak/zadaca_04/index.php
+http://localhost/kmedenjak/zadaca_04/obrasci/obrazac.php
+http://localhost/kmedenjak/zadaca_04/autor.php
