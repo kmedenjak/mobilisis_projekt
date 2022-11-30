@@ -7,5 +7,16 @@ Upute kako pokrenuti
 3. Postrebno je postaviri datoteke unutar mape xampp (putanja: C://xampp/htdocs/projekt) //projekt se odnosi na ovo kreiranu datoteku unutar koje se 
 postavljaju datoteke iz gita
 4. U Web preglednik potrebno upisati http://localhost/projekt/index.php
-  4.1. Ako dođe do greše, odnosno da se MySQL ne želi pokrenuti, potrebno je napraviti sljedeće korake 
+  4.1. Ako dođe do greše, odnosno da se MySQL ne želi pokrenuti, potrebno je napraviti sljedeće korake:
+        a) Kod MySQL-a pritisnuti gumb Config (unutar prozora Xampp-a) i odabrati my.ini, na mjestu gdje je port=3306,            postaviti na port=3307
+                -> 20. i 28. linija u datoteci my.ini
+        b) kliknuti na Config gumb (kraj kojeg se nalazi sličica), pritisnuti gumb Service and Port Settings -> tab
+           MySQL -> Main Port postaviti na 3307
+5. Postaviti bazu na PhyMyAdmin
+   5.1. Ako dođe do problema, otići u datoteku xampp na C disku pa zatim u mapu phpMyAdmin te otvoriti datoteku               config.inc (putanja: C://xampp/phpMyAdmin/config.inc i dodati ovu liniju koda 
+        $cfg['Servers'][$i]['port'] = '3307'; 
+6. Na Web pregledniku napisati URL: http://localhost/phpmyadmin
+7. Kliknuti na opciju New kako bi se dodala baza i nazvati bazu webdip2020x059
+8. Odabrati opciju import te iz mape projekt (putanja: C://xampp/htdocs/projekt) odabrati bazu naziva WebDiP2020x059
+9. Refresh stranice na kojoj je otvorena početna stranica (korak 4)
   
