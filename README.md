@@ -1,6 +1,5 @@
-# mobilisis_projekt
+# Upute
 
-Upute kako pokrenuti
 
 1. Potrebno je preuzeti neki lokalni server, na primjer Xampp (link: https://www.apachefriends.org/download.html)
 2. Nakon instalacije, potrebno je porenuti Xampp te pokrenuti Apache i MySQL
